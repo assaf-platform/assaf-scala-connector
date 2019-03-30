@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.rabbitmq:amqp-client:5.3.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rabbitmq/amqp-client/jars/amqp-client-5.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rabbitmq/amqp-client/srcs/amqp-client-5.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.lightbend.akka:akka-stream-alpakka-amqp_2.12:1.0-RC1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-amqp_2.12/jars/akka-stream-alpakka-amqp_2.12-1.0-RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-amqp_2.12/srcs/akka-stream-alpakka-amqp_2.12-1.0-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

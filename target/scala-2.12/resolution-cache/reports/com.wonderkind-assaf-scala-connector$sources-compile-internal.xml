@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.wonderkind"
+		module="assaf-scala-connector$sources"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190325154954"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.8" status="release" pubdate="20181204111524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2828" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="615375" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle_2.12">
+			<revision name="0.7.1" status="release" pubdate="20181118164416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="2912" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.7.1/upickle_2.12-0.7.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upickle_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3744" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle_2.12/srcs/upickle_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.7.1/upickle_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle-implicits_2.12">
+			<revision name="0.7.1" status="release" pubdate="20181118163912" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="3086" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle-implicits_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/0.7.1/upickle-implicits_2.12-0.7.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upickle-implicits_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11364" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle-implicits_2.12/srcs/upickle-implicits_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/0.7.1/upickle-implicits_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="acyclic_2.12">
+			<revision name="0.1.5" status="release" pubdate="20161031182842" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/acyclic" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2920" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/acyclic_2.12/ivy-0.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.1.5" rev-constraint-default="0.1.5" rev-constraint-dynamic="0.1.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="acyclic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6422" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/acyclic_2.12/srcs/acyclic_2.12-0.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upack_2.12">
+			<revision name="0.7.1" status="release" pubdate="20181118164318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="2621" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upack_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upack_2.12/0.7.1/upack_2.12-0.7.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upack_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6679" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upack_2.12/srcs/upack_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upack_2.12/0.7.1/upack_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ujson_2.12">
+			<revision name="0.7.1" status="release" pubdate="20181118164222" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="2621" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/ujson_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/0.7.1/ujson_2.12-0.7.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ujson_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25755" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/ujson_2.12/srcs/ujson_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/0.7.1/ujson_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle-core_2.12">
+			<revision name="0.7.1" status="release" pubdate="20181118163839" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="2462" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle-core_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/0.7.1/upickle-core_2.12-0.7.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="upickle-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9259" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/upickle-core_2.12/srcs/upickle-core_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/0.7.1/upickle-core_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.akka" name="akka-stream-alpakka-amqp_2.12">
+			<revision name="1.0-RC1" status="release" pubdate="20190319175912" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://doc.akka.io/docs/alpakka/current/" extra-info.apiURL="https://doc.akka.io/api/alpakka/1.0-RC1/akka/stream/alpakka/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4047" time="0" location="/Users/raam/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-amqp_2.12/ivy-1.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-amqp_2.12/1.0-RC1/akka-stream-alpakka-amqp_2.12-1.0-RC1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.0-RC1" rev-constraint-default="1.0-RC1" rev-constraint-dynamic="1.0-RC1" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/alpakka/1.0-RC1/akka/stream/alpakka/index.html"/>
+				<artifacts>
+					<artifact name="akka-stream-alpakka-amqp_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22399" time="0" location="/Users/raam/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-amqp_2.12/srcs/akka-stream-alpakka-amqp_2.12-1.0-RC1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-amqp_2.12/1.0-RC1/akka-stream-alpakka-amqp_2.12-1.0-RC1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rabbitmq" name="amqp-client">
+			<revision name="5.3.0" status="release" pubdate="20180614140532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.rabbitmq.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="ASL 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<license name="GPL v2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.txt"/>
+				<metadata-artifact status="no" details="" size="8261" time="0" location="/Users/raam/.ivy2/cache/com.rabbitmq/amqp-client/ivy-5.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="5.3.0" rev-constraint-default="5.3.0" rev-constraint-dynamic="5.3.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="amqp-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="300970" time="0" location="/Users/raam/.ivy2/cache/com.rabbitmq/amqp-client/srcs/amqp-client-5.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316123632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5188" time="0" location="/Users/raam/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="file:////Users/raam/.sbt/preloaded/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/raam/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.5.21" status="release" pubdate="20190213131622" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3545" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="2.5.21" rev-constraint-default="2.5.21" rev-constraint-dynamic="2.5.21" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="514504" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.3.7" status="release" pubdate="20181025032015" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3715" time="0" location="/Users/raam/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.3.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.3.7" rev-constraint-default="0.3.7" rev-constraint-dynamic="0.3.7" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49355" time="0" location="/Users/raam/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.3.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.1" status="release" pubdate="20180609030928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47350" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171218210638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/raam/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/Users/raam/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.21" status="release" pubdate="20190213130930" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="2.5.21" rev-constraint-default="2.5.21" rev-constraint-dynamic="2.5.21" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="567695" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030001227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.3" status="release" pubdate="20180221150821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2874" time="0" location="/Users/raam/.ivy2/cache/com.typesafe/config/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172783" time="0" location="/Users/raam/.ivy2/cache/com.typesafe/config/srcs/config-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="utest_2.12">
+			<revision name="0.6.4" status="release" pubdate="20180319000404" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/utest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/utest_2.12/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/utest_2.12/0.6.4/utest_2.12-0.6.4.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="utest_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37962" time="0" location="/Users/raam/.ivy2/cache/com.lihaoyi/utest_2.12/srcs/utest_2.12-0.6.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/utest_2.12/0.6.4/utest_2.12-0.6.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20150507162859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2584" time="0" location="/Users/raam/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/raam/.sbt/preloaded/org.scala-sbt/test-interface/1.0/ivys/ivy.xml"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/raam/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.12">
+			<revision name="2.5.21" status="release" pubdate="20190213130655" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/ivy-2.5.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="2.5.21" rev-constraint-default="2.5.21" rev-constraint-dynamic="2.5.21" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="277110" time="0" location="/Users/raam/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204111556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="com.wonderkind" name="assaf-scala-connector$sources" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1020924" time="0" location="/Users/raam/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

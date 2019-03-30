@@ -1,0 +1,4 @@
+[error] /Users/raam/code/experiments/scala/assaf-scala-connector/project/Dependencies.scala:6:86: ';' expected but ',' found.
+[error]   lazy val rabbitmq =  "com.lightbend.akka" %% "akka-stream-alpakka-amqp" % "1.0-RC1",
+[error]                                                                                      ^
+[error] one error found
